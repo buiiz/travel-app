@@ -73,7 +73,9 @@ export default function Home() {
   }, [text]);
 
   const emptySearchMessage = (
-    <span className="title text-white text-center text-4xl">{f({ id: 'emptySearch' })}</span>
+    <span className="title block text-white mt-40 text-center text-4xl">
+      {f({ id: 'emptySearch' })}
+    </span>
   );
 
   return (

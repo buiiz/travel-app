@@ -7,6 +7,7 @@ module.exports = {
         '@babel/preset-react',
         'next/babel',
       ],
+      plugins: [['styled-components', { ssr: true }]],
     },
     production: {
       presets: [
@@ -15,6 +16,7 @@ module.exports = {
         '@babel/preset-react',
         'next/babel',
       ],
+      plugins: [['styled-components', { ssr: true }]],
     },
     test: {
       presets: [

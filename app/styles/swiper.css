@@ -8,6 +8,10 @@
   align-self: center;
 }
 
+.pad-bottom {
+  padding-bottom: 50%;
+}
+
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   opacity: 1;

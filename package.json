@@ -9,8 +9,15 @@
   "scripts": {
     "test": "lint-staged",
     "lint": "eslint --fix .",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "build": "yarn workspace @travel-app/app run build",
+    "start": "yarn workspace @travel-app/api run start",
+    "dev": "yarn workspace @travel-app/api run dev"
   },
+  "workspaces": [
+    "api",
+    "app"
+  ],
   "lint-staged": {
     "./**/*.{js,jsx,ts,tsx}": [
       "eslint --cache --fix"

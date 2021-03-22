@@ -43,6 +43,7 @@ export default function SignUpForm() {
 
   const validation = async ({ name, email, password, avatar }) => {
     let result = false;
+
     if (!password || password.length < 6) {
       await setErrorPsw(true);
       result = true;

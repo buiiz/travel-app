@@ -57,7 +57,10 @@ export default function SwiperApp({ id, setSelectionModal, setPlaceId, setModal 
             onSwiper={setFirstSwiper}
             controller={{ control: secondSwiper }}>
             {places.map((place, index) => (
-              <SwiperSlide key={place._id} virtualIndex={index} className="relative w-full pb-1/2">
+              <SwiperSlide
+                key={place._id}
+                virtualIndex={index}
+                className="pad-bottom relative w-full pb-1/2">
                 <img
                   src={place.imagesUrl[1]}
                   alt={place.data[locale].name}

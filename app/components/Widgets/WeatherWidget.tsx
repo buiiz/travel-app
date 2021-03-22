@@ -3,14 +3,14 @@ import { useIntl } from 'react-intl';
 
 import { convertFtoC } from '../../utils/utils';
 
-const API_KEY = 'b96b3483c8a4a6510a423be0ef0914e7';
+const API_KEY_WEATHER = 'b96b3483c8a4a6510a423be0ef0914e7';
 
 export const WeatherWidget = ({ countryCapital }) => {
   const [weatherData, setWeatherData] = useState(null);
   const { formatMessage: f, locale } = useIntl();
 
   useEffect(() => {
-    const URL = `http://api.openweathermap.org/data/2.5/weather?q=${countryCapital}&appid=${API_KEY}&units=imperial&lang=${locale}`;
+    const URL = `https://api.openweathermap.org/data/2.5/weather?q=${countryCapital}&appid=${API_KEY_WEATHER}&units=imperial&lang=${locale}`;
     fetch(URL)
       .then((res) => res.json())
       .then((json) => setWeatherData(json));
