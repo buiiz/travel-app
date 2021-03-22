@@ -1,9 +1,10 @@
 1. Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/travel-app.md
 2. Screenshot:
    ![home.png](img/home.png)
-3. Deploy: https://rs.school/
+3. Deploy: https://alpoliakov-travel-app.herokuapp.com/
 4. Done 17.03.2021 / deadline 17.03.2021
 5. Score: 200 / 200
+6. Description: https://github.com/buiiz/travel-app/blob/develop/Description.md
 
 ### Вёрстка, дизайн, UI +30
 
@@ -39,5 +40,3 @@
 
 - [x] продуман и реализован не предусмотренный заданием сложный в реализации дополнительный функционал, который существенно улучшает качество приложения +10
 - [x] написано не меньше 10 юнит-тестов, использующих различные [методы jest](https://jestjs.io/docs/ru/expect) +10
-
-6. Description: https://docs.rs.school/
