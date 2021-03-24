@@ -87,7 +87,7 @@ export default function Home() {
         <div className="container">
           <Header />
           <motion.div
-            style={{ padding: '0 20px', margin: '0 auto' }}
+            style={{ padding: '0 15px', margin: '0 auto' }}
             initial="initial"
             animate="enter"
             exit="exit"

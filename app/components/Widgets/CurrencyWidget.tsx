@@ -45,6 +45,8 @@ export const CurrencyWidget = ({ currency }) => {
   return (
     <div className="m-4 p-10 flex items-center justify-center bg-gray-900 rounded-xl bg-opacity-50 shadow-xl">
       <div className="text-white font-medium text-lg text-center font-bold uppercase">
+        {f({ id: currency.toLowerCase() })}
+        <br />
         {f({ id: 'usd' })}: {toUSD}
         <br />
         {f({ id: 'eur' })}: {toEUR}

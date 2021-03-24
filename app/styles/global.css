@@ -74,7 +74,7 @@ a {
 .countries {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 450px);
+  grid-template-columns: repeat(2, 430px);
   column-gap: 20px;
   row-gap: 30px;
   margin: 0 auto;
@@ -113,13 +113,13 @@ a {
 
 /* Loader */
 
-@media (min-width: 1400px) {
+@media (min-width: 1420px) {
   .countries {
-    grid-template-columns: repeat(3, 450px);
+    grid-template-columns: repeat(3, 430px);
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 995px) {
   .countries {
     grid-template-columns: repeat(1, 1fr);
   }
