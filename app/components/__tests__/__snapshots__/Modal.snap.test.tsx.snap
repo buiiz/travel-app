@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+Array [
+  <div
+    className="w-full h-full flex items-center justify-center fixed block top-0 left-0 bg-gray-400 opacity-80 z-40"
+  >
+    <div
+      className="w-full w-5/6 sm:5/6 md:w-3/4 xl:w-1/2 2xl:w-1/3"
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateY(30px) scale(0.96) translateZ(0)",
+        }
+      }
+    >
+      <div
+        className="leading-loose"
+      >
+        <div
+          className="m-4 relative p-10 bg-gray-800 opacity-99 z-50 rounded shadow-xl"
+        >
+          <h1
+            className="text-white text-2xl font-bold"
+          >
+            Приветствуем!
+          </h1>
+          <span
+            className="text-white text-xl font-semibold"
+          >
+            Вам необходимо войти или зарегистрироваться!
+          </span>
+          <button
+            className="text-white text-xl hover:text-yellow-500 focus:outline-none absolute bottom-3 right-10 block"
+            onClick={[Function]}
+          >
+            Закрыть
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  ")",
+]
+`;

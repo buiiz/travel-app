@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader render correctly Loader show - false 1`] = `null`;
+
+exports[`Loader render correctly Loader show - true 1`] = `
+<div
+  className="w-full h-full fixed block top-0 left-0 bg-gray-700 opacity-75 z-50"
+>
+  <div
+    className="loader top-1/2 my-0 mx-auto block relative w-0 h-0"
+    style={
+      Object {
+        "top": "50%",
+      }
+    }
+  />
+</div>
+`;

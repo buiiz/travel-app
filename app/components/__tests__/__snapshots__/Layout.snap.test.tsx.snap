@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout render correctly 1`] = `
+Array [
+  <div />,
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "position": "fixed",
+        "zIndex": 9999,
+      }
+    }
+  />,
+  <h1>
+    Test
+  </h1>,
+]
+`;

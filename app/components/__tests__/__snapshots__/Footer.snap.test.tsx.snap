@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer render correctly 1`] = `
+<div
+  className="footer"
+>
+  <a
+    className="shadow__item hover__item"
+    href="https://rs.school/react/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    target="_blank"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <img
+        alt="Logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </a>
+  <h4
+    style={
+      Object {
+        "color": "#ffffff",
+      }
+    }
+  >
+    <span
+      className="shadow__item"
+    >
+      Created 2021:
+       
+      <a
+        className="shadow__item hover__item hover:text-orange-600"
+        href="https://github.com/alpoliakov"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "#ffffff",
+          }
+        }
+        target="_blank"
+      >
+        @alpoliakov
+      </a>
+       
+      <a
+        className="shadow__item hover__item hover:text-orange-600"
+        href="https://github.com/buiiz"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "#ffffff",
+          }
+        }
+        target="_blank"
+      >
+        @buiiz
+      </a>
+       
+      <a
+        className="shadow__item hover__item hover:text-orange-600"
+        href="https://github.com/ya-mashnenko"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "#ffffff",
+          }
+        }
+        target="_blank"
+      >
+        @ya-mashnenko
+      </a>
+       
+      <a
+        className="shadow__item hover__item hover:text-orange-600"
+        href="https://github.com/w1r3d7/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "#ffffff",
+          }
+        }
+        target="_blank"
+      >
+        @w1r3d7
+      </a>
+    </span>
+  </h4>
+</div>
+`;

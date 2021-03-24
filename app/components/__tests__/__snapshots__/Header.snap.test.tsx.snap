@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+Array [
+  <div
+    className="header pb-5"
+  >
+    <div
+      className="header__home"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <img
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "visibility": "hidden",
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </a>
+    </div>
+    <div
+      className="header__search"
+    />
+    <div
+      className="header__menu"
+    >
+      <select
+        className="select-css"
+        data-testid="select-locale"
+        defaultValue="en"
+        onChange={[Function]}
+      >
+        <option
+          value="en"
+        >
+          en
+        </option>
+        <option
+          value="ru"
+        >
+          ru
+        </option>
+        <option
+          value="uk"
+        >
+          uk
+        </option>
+      </select>
+      
+      <a
+        className="text-white p-1 hover:bg-opacity-100 hover:text-opacity-70 text-base p-2 bg-gray-900 rounded-xl bg-opacity-50"
+        href="/auth/login"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Войти
+      </a>
+      <a
+        className="text-white p-1 hover:bg-opacity-100 hover:text-opacity-70 text-base p-2 bg-gray-900 rounded-xl bg-opacity-50"
+        href="/auth/signup"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Регистрация
+      </a>
+    </div>
+  </div>,
+  ")",
+]
+`;

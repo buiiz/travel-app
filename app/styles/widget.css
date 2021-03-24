@@ -1,0 +1,27 @@
+.widget-box {
+  display: flex;
+  justify-content: center;
+}
+
+.widget-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.weather-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .weather-informer {
+    font-size: 1.5rem;
+  }
+
+  .widget-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

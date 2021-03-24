@@ -1,0 +1,8 @@
+mutation EditUser($input: SettingsInput!) {
+  editUser(input: $input) {
+    _id
+    name
+    email
+    avatar
+  }
+}

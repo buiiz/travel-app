@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown renders correctly 1`] = `
+Array [
+  <div
+    className="dropdown cursor-pointer p-1 mr-2 flex items-center"
+  >
+    <div
+      className="mr-3"
+    >
+      <img
+        alt="avatar"
+        className="h-10 w-10 rounded-full"
+      />
+    </div>
+    <div
+      className=""
+    >
+      <span
+        className="text-white text-lg font-semibold ml-1"
+      />
+    </div>
+    <div
+      className="rounded-md shadow-sm flex"
+    >
+      <button
+        className="flex justify-center items-center block h-3 w-3 overflow-hidden focus:outline-none"
+      >
+        <div
+          className="animate-ping inline-flex h-full w-full rounded-full text-gray-700 opacity-75"
+          id="arrow"
+        >
+          <svg
+            className="h-3 w-3 text-white"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+      <ul
+        className="dropdown-menu absolute w-48 bg-white rounded-lg shadow-xl mt-8 -ml-48 hidden sm:mr-24 md:mr-32 lg:mr-48 xl:mr-64s"
+      >
+        <li
+          className=""
+        >
+          <a
+            className="rounded-t text-gray-800 hover:bg-gray-600 hover:text-white py-2 px-4 block whitespace-no-wrap"
+            href="/user/undefined"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Профиль
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            className="text-gray-800 hover:bg-gray-600 hover:text-white py-2 px-4 block whitespace-no-wrap"
+          >
+            Settings
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <div
+            className="rounded-b text-gray-800 hover:bg-gray-600 hover:text-white py-2 px-4 block whitespace-no-wrap"
+            onClick={[Function]}
+            role="presentation"
+          >
+            Выйти
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  ")",
+]
+`;

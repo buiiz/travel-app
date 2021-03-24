@@ -1,0 +1,56 @@
+query Place($id: ObjectId!) {
+  place(placeId: $id) {
+    _id
+    imagesUrl
+    data {
+      en {
+        name
+        description
+        country
+      }
+      ru {
+        name
+        description
+        country
+      }
+      uk {
+        name
+        description
+        country
+      }
+    }
+    country {
+      _id
+      currency
+      coordinates
+      ISOCode
+      videoUrl
+      timeZone
+      imagesUrl
+      data {
+        en {
+          name
+          description
+          capital
+        }
+        ru {
+          name
+          description
+          capital
+        }
+        uk {
+          name
+          description
+          capital
+        }
+      }
+    }
+    averageRating
+    rating {
+      userName
+      userId
+      rate
+      comment
+    }
+  }
+}

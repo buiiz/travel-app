@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm renders correctly 1`] = `
+Array [
+  <div
+    className="w-full max-w-lg"
+  >
+    <div
+      className="leading-loose"
+    >
+      <form
+        className="m-4 p-10 bg-white bg-opacity-25 rounded shadow-xl"
+      >
+        <p
+          className="text-white font-medium text-center text-lg font-bold uppercase"
+        >
+          Регистрация
+        </p>
+        <div
+          className=""
+        >
+          <label
+            className="block text-sm text-white"
+            htmlFor="name"
+          >
+            Имя (3 символа минимум):
+          </label>
+          <input
+            aria-label="name"
+            className="w-full px-5 py-1 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            id="name"
+            onChange={[Function]}
+            placeholder="Введите ваше имя"
+            required={true}
+            type="name"
+            value=""
+          />
+          <span
+            className="flex items-center font-medium tracking-wide text-yellow-500 text-xs mt-1 ml-1"
+          />
+        </div>
+        <div
+          className="mt-1"
+        >
+          <label
+            className="block text-sm text-white"
+            htmlFor="email"
+          >
+            E-mail:
+          </label>
+          <input
+            aria-label="email"
+            className="w-full px-5 py-1 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            id="email"
+            onChange={[Function]}
+            placeholder="Введите ваш e-mail"
+            required={true}
+            type="email"
+            value=""
+          />
+          <span
+            className="flex items-center font-medium tracking-wide text-yellow-500 text-xs mt-1 ml-1"
+          />
+        </div>
+        <div
+          className="mt-1"
+        >
+          <label
+            className="block  text-sm text-white"
+            htmlFor="password"
+          >
+            Пароль (6 символов минимум):
+          </label>
+          <input
+            arial-label="password"
+            className="w-full px-5 py-1 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            id="password"
+            minLength={6}
+            name="password"
+            onChange={[Function]}
+            placeholder="Введите ваш пароль"
+            required={true}
+            type="password"
+            value=""
+          />
+          <span
+            className="flex items-center font-medium tracking-wide text-yellow-500 text-xs mt-1 ml-1"
+          />
+        </div>
+        <div
+          className="mt-4 flex justify-between align-center"
+        >
+          <label
+            className="block text-sm text-white"
+            htmlFor="avatar"
+          >
+            Аватар:
+            <div
+              className="w-full cursor-pointer tracking-wide px-5 py-2 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            >
+              <input
+                accept="image/*"
+                arial-label="loader"
+                className="hidden"
+                id="avatar"
+                name="file"
+                onChange={[Function]}
+                placeholder="Загрузите ваш аватар"
+                type="file"
+              />
+              <span
+                className="mt-2 text-base leading-normal"
+              >
+                Выберите файл
+              </span>
+            </div>
+          </label>
+          <div
+            className="mr-3"
+          >
+            <img
+              alt="avatar"
+              className="h-20 w-20 rounded-full"
+              src="/images/hacker.png"
+            />
+          </div>
+        </div>
+        <div
+          className="mt-8 items-center flex justify-between"
+        >
+          <button
+            className="px-4 py-1 text-white font-bold tracking-wider bg-gray-900 hover:bg-gray-800 rounded"
+            onClick={[Function]}
+            type="submit"
+          >
+            Ввести
+          </button>
+          <a
+            className="inline-block right-0 align-baseline font-bold text-sm text-500 text-white hover:text-blue-800"
+            href="/auth/login"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            role="button"
+          >
+            Или
+             
+            Войти
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+  ")",
+]
+`;

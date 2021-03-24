@@ -1,0 +1,28 @@
+query Countries {
+  countries {
+    _id
+    ISOCode
+    imagesUrl
+    videoUrl
+    currency
+    timeZone
+    coordinates
+    data {
+      en {
+        name
+        description
+        capital
+      }
+      ru {
+        name
+        description
+        capital
+      }
+      uk {
+        name
+        description
+        capital
+      }
+    }
+  }
+}

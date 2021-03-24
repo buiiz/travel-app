@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders correctly 1`] = `
+Array [
+  <div
+    className="w-full max-w-lg"
+  >
+    <div
+      className="leading-loose"
+    >
+      <form
+        className="m-4 p-10 bg-white bg-opacity-25 rounded shadow-xl"
+      >
+        <p
+          className="text-white font-medium text-center text-lg font-bold uppercase"
+        >
+          Войти
+        </p>
+        <div
+          className=""
+        >
+          <label
+            className="block text-sm text-white"
+            htmlFor="email"
+          >
+            E-mail:
+          </label>
+          <input
+            aria-label="email"
+            className="w-full px-5 py-1 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            id="email"
+            onChange={[Function]}
+            placeholder="Введите ваш e-mail"
+            required={true}
+            type="email"
+            value=""
+          />
+          <span
+            className="flex items-center font-medium tracking-wide text-yellow-500 text-xs mt-1 ml-1"
+          />
+        </div>
+        <div
+          className="mt-4"
+        >
+          <label
+            className="block  text-sm text-white"
+            htmlFor="password"
+          >
+            Пароль (6 символов минимум):
+          </label>
+          <input
+            arial-label="password"
+            className="w-full px-5 py-1 text-gray-700 bg-gray-300 rounded focus:outline-none focus:bg-white"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Введите ваш пароль"
+            required={true}
+            type="password"
+            value=""
+          />
+          <span
+            className="flex items-center font-medium tracking-wide text-yellow-500 text-xs mt-1 ml-1"
+          />
+        </div>
+        <div
+          className="mt-8 items-center flex justify-between"
+        >
+          <button
+            className="px-4 py-1 text-white font-bold tracking-wider bg-gray-900 hover:bg-gray-800 rounded"
+            onClick={[Function]}
+            type="submit"
+          >
+            Ввести
+          </button>
+          <p
+            className="inline-block cursor-pointer right-0 align-baseline font-bold text-sm text-500 text-white hover:text-blue-800"
+            onClick={[Function]}
+            role="presentation"
+          >
+            Вернуться ?
+          </p>
+        </div>
+        <div
+          className="text-center"
+        >
+          <a
+            className="inline-block right-0 align-baseline font-bold text-sm text-500 text-white hover:text-blue-800"
+            href="/auth/signup"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Создать аккаунт
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+  ")",
+]
+`;

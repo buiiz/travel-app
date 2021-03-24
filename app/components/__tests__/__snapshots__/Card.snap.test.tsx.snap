@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+Array [
+  <div
+    className="card hover__item shadow__item p-3"
+    data-id="60450fb4d4f7b1666c3bf94b"
+    onClick={[Function]}
+    role="presentation"
+    style={
+      Object {
+        "backgroundImage": "url(https://images.unsplash.com/photo-1554072675-66db59dba46f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80), linear-gradient(var(--color-grey-light) 1%, var(--color-grey-dark) 100%)",
+      }
+    }
+  >
+    <h1
+      className="shadow__item gradient-text text-2xl sm:text-3xl md:text-4xl font-semibold"
+      data-id="60450fb4d4f7b1666c3bf94b"
+      style={
+        Object {
+          "zIndex": -1,
+        }
+      }
+    >
+      Germany
+    </h1>
+    <h1
+      className="shadow__item lowercase gradient-text text-xl font-semibold md:text-2xl"
+      data-id="60450fb4d4f7b1666c3bf94b"
+      style={
+        Object {
+          "color": "#ffffff",
+          "zIndex": -1,
+        }
+      }
+    >
+      Berlin
+    </h1>
+  </div>,
+  ")",
+]
+`;
